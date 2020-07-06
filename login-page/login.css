@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+*{
+	
+	padding: 0;
+	margin: 0;
+	font-family: montserrat;
+}
+#login{
+
+	width: auto;
+	height: auto;
+
+}
+
+.background{
+	background: url(../login-page/img-login/img-menu.png);
+	position: absolute;
+	width: 1349px;
+	height: 663px;
+	left: 0px;
+	top: 0px;
+	text-align: center;
+}
+
+.container{
+	width: auto;
+	margin: auto;
+}
+
+.card{
+	position: absolute;
+width: 472px;
+height: 511px;
+left: 464px;
+top: 84px;
+
+background: #884F27;
+border-radius: 10px;
+}
+
+.judul{
+	position: absolute;
+width: 472px;
+height: 511px;
+left: 0px;
+top: 4%;
+bottom: 71.95%;
+
+
+font-size: 40px;
+line-height: 72px;
+
+color: #EB8034;
+
+}
+
+.user{
+	position: absolute;
+width: 212px;
+height: 14px;
+left: 525px;
+top: 263px;
+
+}
+
