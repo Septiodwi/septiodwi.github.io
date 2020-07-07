@@ -8,15 +8,15 @@
 }
 
 #page-top {
-	background-color: #242222;
-	width: auto;
+	background-color: black;
+	width: ;
 	height: auto;
 
 }
 
 @media screen and (max-width: 475px) {
 	#page-top {
-		width: 100;
+		width: 100%;
 	}
 }
 
@@ -279,6 +279,7 @@ button.btn-secondary {
 	.logo {
 		font-size: 30px;
 		top: 100px;
+		left: 35px;
 	}
 }
 
@@ -297,6 +298,7 @@ button.btn-secondary {
 		width: 250px;
 		font-size: 9px;
 		top: 120px;
+		left: 10px;
 	}
 }
 
@@ -343,8 +345,8 @@ top: 109px;
 @media screen and (max-width: 475px) {
 	.img-background-1 {
 		width: 314px;
-		height: 210px;
-		left: 30px;
+		height: 200px;
+		left: 5px;
 		top: 60px;
 
 	}
@@ -377,7 +379,7 @@ top: 109px;
 	.rectangle-diskon {
 		width: 240px;
 		height: 72px;
-		left: 65px;
+		left: 35px;
 		top: 230px;
 		border-radius: 10px;
 
@@ -405,6 +407,7 @@ top: 109px;
 		height: 50px;
 		top: 240px;
 		border-radius: 10px;
+		left: 40px;
 	}
 }
 
@@ -447,7 +450,7 @@ top: 109px;
 	.limit {
 		font-size: 11px;
 		top: 10px;
-		left: 85px;
+		left: 75px;
 	}
 }
 
@@ -468,10 +471,12 @@ top: 109px;
 }
 
 @media screen and (max-width: 475px) {
-	.limit-1 {
+	.limited {
 		display: none;
 	}
 }
+
+
 
 .limit-2 {
 	position: absolute;
@@ -489,6 +494,12 @@ top: 109px;
 
 	color: #242222;
 	z-index: 999;
+}
+
+@media screen and (max-width: 475px) {
+	.limit-2 {
+		display: none;
+	}
 }
 
 .limit-3 {
@@ -509,6 +520,8 @@ top: 109px;
 	z-index: 999;
 }
 
+
+
 .limit-4 {
 	position: absolute;
 	width: 45px;
@@ -527,6 +540,7 @@ top: 109px;
 	z-index: 999;
 }
 
+
 .diskon-img {
 	position: absolute;
 	width: 299px;
@@ -540,7 +554,7 @@ top: 109px;
 	.diskon-img {
 		width: 58px;
 		height: 58px;
-		left: 236px;
+		left: 210px;
 		top: 245px;
 	}
 }
@@ -571,7 +585,7 @@ top: 109px;
 		height: 25px;
 		border-radius: 10px;
 		font-size: 10px;
-		left: 150px;
+		left: 125px;
 		top: 260px;
 		text-align: center;
 		line-height: 0px;
@@ -649,6 +663,12 @@ top: 109px;
 
 }
 
+@media screen and (max-width: 475px) {
+	.img-diskon-1 {
+		display: none;
+	}
+}
+
 .img-diskon-2 {
 	position: absolute;
 	width: 190px;
@@ -658,6 +678,12 @@ top: 109px;
 
 }
 
+@media screen and (max-width: 475px) {
+	.img-diskon-2 {
+		display: none;
+	}
+}
+
 .img-diskon-3 {
 	position: absolute;
 	width: 190px;
@@ -665,6 +691,12 @@ top: 109px;
 	left: 50px;
 	top: 20px;
 
+}
+
+@media screen and (max-width: 475px) {
+	.img-diskon-3 {
+		display: none;
+	}
 }
 
 /*.card-diskon-2{
@@ -861,7 +893,7 @@ color:  #FEC705;
 
 @media screen and (max-width: 475px) {
 	.img-room {
-		width: 360px;
+		width: 300px;
 		height: 204px;
 		top: -1000px;
 		left: 5px;
@@ -1252,6 +1284,6 @@ color:  #FEC705;
 @media screen and (max-width: 475px) {
 	.text-copyright {
 		left: 30%;
-		top: 450px;
+		top: 400px;
 	}
 }
