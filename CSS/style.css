@@ -279,7 +279,7 @@ button.btn-secondary {
 	.logo {
 		font-size: 30px;
 		top: 100px;
-		left: 35px;
+		left: 45px;
 	}
 }
 
@@ -298,7 +298,7 @@ button.btn-secondary {
 		width: 250px;
 		font-size: 9px;
 		top: 120px;
-		left: 10px;
+		left: 20px;
 	}
 }
 
@@ -348,7 +348,7 @@ top: 109px;
 		height: 200px;
 		left: 30px;
 		top: 60px;
-
+		border-radius: 10px;
 	}
 }
 
@@ -379,7 +379,7 @@ top: 109px;
 	.rectangle-diskon {
 		width: 240px;
 		height: 72px;
-		left: 35px;
+		left: 65px;
 		top: 230px;
 		border-radius: 10px;
 
@@ -407,7 +407,7 @@ top: 109px;
 		height: 50px;
 		top: 240px;
 		border-radius: 10px;
-		left: 40px;
+		left: 70px;
 	}
 }
 
@@ -554,7 +554,7 @@ top: 109px;
 	.diskon-img {
 		width: 58px;
 		height: 58px;
-		left: 210px;
+		left: 240px;
 		top: 245px;
 	}
 }
@@ -585,7 +585,7 @@ top: 109px;
 		height: 25px;
 		border-radius: 10px;
 		font-size: 10px;
-		left: 125px;
+		left: 150px;
 		top: 260px;
 		text-align: center;
 		line-height: 0px;
@@ -1223,6 +1223,8 @@ color:  #FEC705;
 @media screen and (max-width: 475px) {
 	.img-tio {
 		left: 25%;
+		width: 61.71;
+		left: 48;
 	}
 }
 
@@ -1284,6 +1286,6 @@ color:  #FEC705;
 @media screen and (max-width: 475px) {
 	.text-copyright {
 		left: 30%;
-		top: 400px;
+		top: 450px;
 	}
 }
