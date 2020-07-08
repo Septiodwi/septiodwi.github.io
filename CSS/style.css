@@ -46,7 +46,7 @@
 @media screen and (max-width: 475px) {
 	.rectangle {
 		position: absolute;
-		width: 100%;
+		width: 110%;
 		height: 35px;
 		left: 1px;
 		top: 0px;
@@ -179,7 +179,7 @@
 
 @media screen and (max-width: 475px) {
 	.Home {
-		left: 30px;
+		left: 40px;
 		font-size: 10px;
 		top: 40px;
 	}
@@ -200,7 +200,7 @@
 
 @media screen and (max-width: 475px) {
 	.About {
-		left: 55%;
+		left: 65%;
 		font-size: 10px;
 		top: 40px;
 	}
@@ -221,7 +221,7 @@
 
 @media screen and (max-width: 475px) {
 	.Room {
-		left: 80%;
+		left: 100%;
 		font-size: 10px;
 		top: 40px;
 	}
@@ -241,7 +241,7 @@
 
 @media screen and (max-width: 475px) {
 	.Contact {
-		left: 110px;
+		left: 130px;
 		font-size: 10px;
 		top: 40px;
 	}
@@ -893,10 +893,10 @@ color:  #FEC705;
 
 @media screen and (max-width: 475px) {
 	.img-room {
-		width: 380px;
+		width: 340px;
 		height: 204px;
 		top: -1050px;
-		left: 0px;
+		left: 20px;
 	}
 }
 
@@ -973,6 +973,7 @@ color:  #FEC705;
 	margin: auto;
 }
 
+
 .img-menu {
 	position: absolute;
 	width: 1036px;
@@ -1007,6 +1008,7 @@ color:  #FEC705;
 		width: 120.87px;
 		height: 38.93px;
 		top: 630px;
+
 	}
 }
 
@@ -1023,6 +1025,15 @@ color:  #FEC705;
 	height: 400px;
 	left: -100px;
 	top: -100px;
+}
+
+@media screen and (max-width: 475px) {
+	.img-logo-menu {
+		width: auto;
+		height: 200px;
+		margin-left: 100px;
+		margin-top: 20px;
+	}
 }
 
 #Footer {
