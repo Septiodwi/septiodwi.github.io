@@ -100,7 +100,8 @@
 
 @media screen and (max-width: 475px) {
 	.rectangle-box {
-		margin-left: -55px;
+		margin-left: -20px;
+		margin-top: -70px;
 	}
 }
 
@@ -129,6 +130,6 @@
 
 @media screen and (max-width: 475px) {
 	.btn-back {
-		margin-left: 40px;
+		margin-left: 60px;
 	}
 }

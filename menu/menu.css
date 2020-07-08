@@ -1,331 +1,277 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
-*{
-	
+* {
+
 	padding: 0;
 	margin: 0;
 	font-family: montserrat;
 }
-#menu{
+
+#menu {
 	width: auto;
 	/height: auto;
 
 }
-.container{
+
+.container {
 	width: auto;
 	margin: auto;
 }
 
-.page{
-position: absolute;
-width: 1349px;
-height: 1708px;
-
-background: #EB8034;
-}
-
-.card-1{
+.page {
 	position: absolute;
-width: 1062px;
-height: 308px;
-left: 130px;
-top: 50px;
+	width: 1349px;
+	height: 1708px;
 
-background: #FFFBF8;
-border-radius: 10px;
+	background: #EB8034;
 }
 
-.text-judul{
+@media screen and (max-width: 475px) {
+	.page {
+		width: 100%;
+		height: 2100px;
+	}
+}
+
+.card-1 {
+	position: absolute;
+	width: 1062px;
+	height: 308px;
+	left: 130px;
+	top: 50px;
+
+	background: #FFFBF8;
+	border-radius: 10px;
+}
+
+@media screen and (max-width: 475px) {
+	.card-1 {
+		width: 300px;
+		left: 40px;
+		height: 450px;
+	}
+}
+
+.text-judul {
 	position: absolute;
 	display: block;
-width: 200px;
-height: 103px;
+	width: 200px;
+	height: 103px;
 
-left: 50px;
-top: 0px;
-font-size: 30px;
-line-height: 100px;
+	left: 50px;
+	top: 0px;
+	font-size: 30px;
+	line-height: 100px;
 
-color: #EB8034;
+	color: #EB8034;
 
 }
 
-.text-deskripsi{
+
+@media screen and (max-width: 475px) {
+	.text-judul {
+		font-size: 20px;
+	}
+}
+
+.text-deskripsi {
 	position: absolute;
-width: 498px;
-height: 248px;
-left: 50px;
-top: 100px;
-font-size: 18px;
-line-height: 30px;
-color: #EB8034;
+	width: 498px;
+	height: 248px;
+	left: 50px;
+	top: 100px;
+	font-size: 18px;
+	line-height: 30px;
+	color: #EB8034;
 }
 
-.img-menu-1{
-	 position: absolute;
-width: 272px;
-height: 272px;
-left: 800px;
-top: 10px;
+@media screen and (max-width: 475px) {
+	.text-deskripsi {
+		width: 250px;
+		font-size: 15px;
+		line-height: 20px;
+		margin-top: 150px;
+	}
+}
+
+.img-menu-1 {
+	position: absolute;
+	width: 272px;
+	height: 272px;
+	left: 800px;
+	top: 10px;
 
 }
 
-.price-menu-1{
+@media screen and (max-width: 475px) {
+	.img-menu-1 {
+		left: 80px;
+		margin-top: 60px;
+		width: 150px;
+		height: 150px;
+	}
+}
+
+.price-menu-1 {
 	position: absolute;
 	display: inline-block;
-width: 150px;
-height: 67px;
-left: 730px;
-top: 180px;
+	width: 150px;
+	height: 67px;
+	left: 730px;
+	top: 180px;
 
-background: #EB8034;
-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-border-radius: 10px;
+	background: #EB8034;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+	border-radius: 10px;
 }
 
-.price{
+@media screen and (max-width: 475px) {
+	.price-menu-1 {
+		left: 100px;
+		width: 100px;
+		height: 40px;
+	}
+}
+
+.price {
 	position: absolute;
-width: -100px;
-height: 103px;
-left: 20px;
-top: -20px;
-font-size: 50px;
-line-height: 108px;
+	width: -100px;
+	height: 103px;
+	left: 20px;
+	top: -20px;
+	font-size: 50px;
+	line-height: 108px;
 
-color:  white;
+	color: white;
 }
 
-.card-2{
+@media screen and (max-width: 475px) {
+	.price {
+		margin-top: -10px;
+		font-size: 30px;
+	}
+}
+
+.card-2 {
 	position: absolute;
-width: 1062px;
-height: 308px;
-left: 130px;
-top: 400px;
+	width: 1062px;
+	height: 308px;
+	left: 130px;
+	top: 400px;
 
-background: #FFFBF8;
-border-radius: 10px;
+	background: #FFFBF8;
+	border-radius: 10px;
 }
 
-.card-3{
+@media screen and (max-width: 475px) {
+	.card-2 {
+		width: 300px;
+		left: 40px;
+		height: 450px;
+		margin-top: 140px;
+	}
+}
+
+
+.card-3 {
 	position: absolute;
-width: 1062px;
-height: 308px;
-left: 130px;
-top: 400px;
+	width: 1062px;
+	height: 308px;
+	left: 130px;
+	top: 400px;
 
-background: #FFFBF8;
-border-radius: 10px;
+	background: #FFFBF8;
+	border-radius: 10px;
 }
 
-.card-3{
+@media screen and (max-width: 475px) {
+	.card-3 {
+		width: 0px;
+		left: 40px;
+		height: 490px;
+		margin-top: 140px;
+
+	}
+}
+
+.card-3 {
 	position: absolute;
-width: 1062px;
-height: 308px;
-left: 130px;
-top: 750px;
+	width: 1062px;
+	height: 308px;
+	left: 130px;
+	top: 750px;
 
-background: #FFFBF8;
-border-radius: 10px;
+	background: #FFFBF8;
+	border-radius: 10px;
 }
 
-.text-judul-3{
-	position: absolute;
-	display: block;
-width: 400px;
-height: 103px;
-
-left: 50px;
-top: 0px;
-font-size: 30px;
-line-height: 100px;
-
-color: #EB8034;
-
-}
-
-.card-4{
-	position: absolute;
-width: 1062px;
-height: 308px;
-left: 130px;
-top: 1100px;
-
-background: #FFFBF8;
-border-radius: 10px;
-}
-
-.btn-back{
-	position: absolute;
-width: 140px;
-height: 41px;
-left: 654px;
-top: 1500px;
-
+@media screen and (max-width: 475px) {
+	.card-3 {
+		width: 300px;
+		left: 40px;
+		height: 490px;
+		margin-top: 280px;
+		font-size: 10px;
+	}
 }
 
 
-
-
-
-
-
-
-
-@media screen and (max-width: 576px){
-
-	*{
-	
-	padding: 0;
-	margin: 0;
-	font-family: montserrat;
-}
-	#menu{
-	width: auto;
-	height: auto;
-
-}
-.container{
-	width: 500px;
-	margin: 1890;
-}
-
-.page{
-margin: 0;
-padding: 0;
-position: absolute;
-width:  480px;
-height: 1860px;
-
-background: #EB8034;
-}
-
-.card-1{
-	position: absolute;
-width: 350px;
-height: 400px;
-left: 70px;
-top: 50px;
-
-background: #FFFBF8;
-border-radius: 10px;
-}
-
-.text-judul{
+.text-judul-3 {
 	position: absolute;
 	display: block;
-width: 200px;
-height: 103px;
+	width: 200px;
+	height: 103px;
 
-left: 50px;
-top: 0px;
-font-size: 20px;
-line-height: 100px;
+	left: 50px;
+	top: 15px;
+	font-size: 30px;
+	line-height: 40px;
 
-color: #EB8034;
+	color: #EB8034;
 
 }
 
-.text-deskripsi{
+@media screen and (max-width: 475) {
+	.text-judul-3 {
+		width: 200px;
+		font-size:
+	}
+
+	;
+}
+
+.card-4 {
 	position: absolute;
-width: 270px;
-height: 248px;
-left: 50px;
-top: 220px;
-/*text-align: center;*/
-font-size: 13px;
-line-height: 20px;
-color: #EB8034;
+	width: 1062px;
+	height: 308px;
+	left: 130px;
+	top: 1100px;
+
+	background: #FFFBF8;
+	border-radius: 10px;
 }
 
-.img-menu-1{
-	 position: absolute;
-width: auto;
-height: 150px;
-left: 100px;
-top: 70px;
-
+@media screen and (max-width: 475px) {
+	.card-4 {
+		width: 300px;
+		left: 40px;
+		height: 450px;
+		margin-top: 450px;
+	}
 }
 
-.price-menu-1{
+.btn-back {
 	position: absolute;
-	display: inline-block;
-width: 120px;
-height: 50px;
-left: 190px;
-top: 342px;
-
-background: #EB8034;
-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-border-radius: 10px;
-}
-
-.price{
-	position: absolute;
-width: -100px;
-height: 103px;
-left: 30px;
-top: -30px;
-font-size: 30px;
-line-height: 108px;
-
-color:  white;
-}
-
-.card-2{
-	position: absolute;
-width: 350px;
-height: 400px;
-left: 70px;
-top: 500px;
-
-background: #FFFBF8;
-border-radius: 10px;
-}
-
-.card-3{
-	position: absolute;
-width: 350px;
-height: 400px;
-left: 70px;
-top: 950px;
-
-background: #FFFBF8;
-border-radius: 10px;
-}
-
-.text-judul-3{
-	position: absolute;
-	display: block;
-width: 400px;
-height: 103px;
-
-left: 50px;
-top: 0px;
-font-size: 20px;
-line-height: 100px;
-color: #EB8034;
+	width: 140px;
+	height: 41px;
+	left: 654px;
+	top: 1500px;
 
 }
 
-.card-4{
-	position: absolute;
-width: 350px;
-height: 400px;
-left: 70px;
-top: 1400px;
-
-
-background: #FFFBF8;
-border-radius: 10px;
-}
-
-.btn-back{
-	position: absolute;
-width: 140px;
-height: 41px;
-left: 70px;
-top: 1815px;
-
-}
-
+@media screen and (max-width: 475px) {
+	.btn-back {
+		left: 120px;
+		margin-top: 550px;
+	}
 }
