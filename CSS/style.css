@@ -1020,9 +1020,9 @@ color:  #FEC705;
 .img-logo-menu {
 	position: absolute;
 	width: auto;
-	height: 200px;
-	left: 20px;
-	top: -80px;
+	height: 400px;
+	left: -100px;
+	top: -100px;
 }
 
 #Footer {
